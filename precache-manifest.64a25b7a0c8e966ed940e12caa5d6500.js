@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/css/main.dba73617.chunk.css"
   },
   {
-    "revision": "c52b6896bc0b1f1bb2d0890b47e7bc53",
+    "revision": "60802b48a1d432f10278c879358fe3bd",
     "url": "/monsterlovepp/index.html"
   }
 ];
