@@ -8,23 +8,27 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/logo.5d5d9eef.svg"
   },
   {
+    "revision": "73b43606e955ae451c5ae2c5a2457637",
+    "url": "/monsterlovepp/static/media/IMG_1860.73b43606.jpg"
+  },
+  {
     "revision": "0436973482c33947bae5",
     "url": "/monsterlovepp/static/js/runtime~main.04369734.js"
   },
   {
-    "revision": "ede96489d310a19e8bfd",
-    "url": "/monsterlovepp/static/js/main.ede96489.chunk.js"
+    "revision": "8cf67dd8ff1a22ffb5be",
+    "url": "/monsterlovepp/static/js/main.8cf67dd8.chunk.js"
   },
   {
-    "revision": "063ce5bc9f8a30d66648",
-    "url": "/monsterlovepp/static/js/2.063ce5bc.chunk.js"
+    "revision": "ba1ca5ba3f9c1e3c91ad",
+    "url": "/monsterlovepp/static/js/2.ba1ca5ba.chunk.js"
   },
   {
-    "revision": "ede96489d310a19e8bfd",
+    "revision": "8cf67dd8ff1a22ffb5be",
     "url": "/monsterlovepp/static/css/main.dba73617.chunk.css"
   },
   {
-    "revision": "0c3dfa6987d1821524ea5e05daa2f119",
+    "revision": "29454ba52df26d8741768a7b4230800f",
     "url": "/monsterlovepp/index.html"
   }
 ];

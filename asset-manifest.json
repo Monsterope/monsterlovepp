@@ -1,15 +1,16 @@
 {
   "main.css": "/monsterlovepp/static/css/main.dba73617.chunk.css",
-  "main.js": "/monsterlovepp/static/js/main.ede96489.chunk.js",
-  "main.js.map": "/monsterlovepp/static/js/main.ede96489.chunk.js.map",
+  "main.js": "/monsterlovepp/static/js/main.8cf67dd8.chunk.js",
+  "main.js.map": "/monsterlovepp/static/js/main.8cf67dd8.chunk.js.map",
   "runtime~main.js": "/monsterlovepp/static/js/runtime~main.04369734.js",
   "runtime~main.js.map": "/monsterlovepp/static/js/runtime~main.04369734.js.map",
-  "static/js/2.063ce5bc.chunk.js": "/monsterlovepp/static/js/2.063ce5bc.chunk.js",
-  "static/js/2.063ce5bc.chunk.js.map": "/monsterlovepp/static/js/2.063ce5bc.chunk.js.map",
+  "static/js/2.ba1ca5ba.chunk.js": "/monsterlovepp/static/js/2.ba1ca5ba.chunk.js",
+  "static/js/2.ba1ca5ba.chunk.js.map": "/monsterlovepp/static/js/2.ba1ca5ba.chunk.js.map",
   "index.html": "/monsterlovepp/index.html",
-  "precache-manifest.a7809ee98c9fc26c0bea7a5e37a4e069.js": "/monsterlovepp/precache-manifest.a7809ee98c9fc26c0bea7a5e37a4e069.js",
+  "precache-manifest.7c539558823eeb1e176bf092b00c6ae7.js": "/monsterlovepp/precache-manifest.7c539558823eeb1e176bf092b00c6ae7.js",
   "service-worker.js": "/monsterlovepp/service-worker.js",
   "static/css/main.dba73617.chunk.css.map": "/monsterlovepp/static/css/main.dba73617.chunk.css.map",
+  "static/media/IMG_1860.jpg": "/monsterlovepp/static/media/IMG_1860.73b43606.jpg",
   "static/media/logo.svg": "/monsterlovepp/static/media/logo.5d5d9eef.svg",
   "static/media/ok_meme.png": "/monsterlovepp/static/media/ok_meme.5dc783d5.png"
 }
