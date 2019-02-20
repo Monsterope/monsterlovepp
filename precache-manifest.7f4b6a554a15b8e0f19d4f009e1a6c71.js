@@ -8,6 +8,10 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/logo.5d5d9eef.svg"
   },
   {
+    "revision": "5bfa1a1832b95b9a65fb6b2bc39cf18d",
+    "url": "/monsterlovepp/static/media/IMG_18612.5bfa1a18.jpg"
+  },
+  {
     "revision": "72400713886477b1c2d4f4c2557765b7",
     "url": "/monsterlovepp/static/media/IMG_1861.72400713.jpg"
   },
@@ -20,19 +24,19 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/js/runtime~main.04369734.js"
   },
   {
-    "revision": "83cacf28a3a33d972f90",
-    "url": "/monsterlovepp/static/js/main.83cacf28.chunk.js"
+    "revision": "08d4568eff7970e9ac5c",
+    "url": "/monsterlovepp/static/js/main.08d4568e.chunk.js"
   },
   {
-    "revision": "859f7845ecc676a005bf",
-    "url": "/monsterlovepp/static/js/2.859f7845.chunk.js"
+    "revision": "de5d11e880d841d5ae6d",
+    "url": "/monsterlovepp/static/js/2.de5d11e8.chunk.js"
   },
   {
-    "revision": "83cacf28a3a33d972f90",
+    "revision": "08d4568eff7970e9ac5c",
     "url": "/monsterlovepp/static/css/main.dba73617.chunk.css"
   },
   {
-    "revision": "a5265dbb70bf1b0c2cd159b36bd07ac3",
+    "revision": "1d5b3d9b8fc3d1d8ec7711537be8eae0",
     "url": "/monsterlovepp/index.html"
   }
 ];
