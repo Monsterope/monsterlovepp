@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/js/runtime~main.04369734.js"
   },
   {
-    "revision": "08d4568eff7970e9ac5c",
-    "url": "/monsterlovepp/static/js/main.08d4568e.chunk.js"
+    "revision": "54c86831029e04e0b02e",
+    "url": "/monsterlovepp/static/js/main.54c86831.chunk.js"
   },
   {
-    "revision": "de5d11e880d841d5ae6d",
-    "url": "/monsterlovepp/static/js/2.de5d11e8.chunk.js"
+    "revision": "cea419ddc0aabb281f9d",
+    "url": "/monsterlovepp/static/js/2.cea419dd.chunk.js"
   },
   {
-    "revision": "08d4568eff7970e9ac5c",
+    "revision": "54c86831029e04e0b02e",
     "url": "/monsterlovepp/static/css/main.dba73617.chunk.css"
   },
   {
-    "revision": "1d5b3d9b8fc3d1d8ec7711537be8eae0",
+    "revision": "5f4eb90adbb127ec6212cc8b3406cd49",
     "url": "/monsterlovepp/index.html"
   }
 ];
