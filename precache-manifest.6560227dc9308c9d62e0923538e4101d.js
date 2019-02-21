@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "6ac1f93dddd3f9a3a5d250817b65353d",
-    "url": "/monsterlovepp/static/media/java.6ac1f93d.jpg"
+    "revision": "5fb0299a101ede97b983a14b5fc40501",
+    "url": "/monsterlovepp/static/media/php-logo.5fb0299a.png"
   },
   {
-    "revision": "438caca456f877e0e9fe",
+    "revision": "dc7a79d47232bf2fecfb",
     "url": "/monsterlovepp/static/css/main.89179963.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/js/runtime~main.04369734.js"
   },
   {
-    "revision": "d04b7d625716d086ae78",
-    "url": "/monsterlovepp/static/js/2.d04b7d62.chunk.js"
+    "revision": "9d4ac96a996c2bef2d99",
+    "url": "/monsterlovepp/static/js/2.9d4ac96a.chunk.js"
   },
   {
     "revision": "51f994e30d4a6e5a2fa448f522455b15",
@@ -36,16 +36,16 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/python-logo.8d45c2dd.jpg"
   },
   {
-    "revision": "438caca456f877e0e9fe",
-    "url": "/monsterlovepp/static/js/main.438caca4.chunk.js"
+    "revision": "6ac1f93dddd3f9a3a5d250817b65353d",
+    "url": "/monsterlovepp/static/media/java.6ac1f93d.jpg"
   },
   {
     "revision": "3fc5bcef6d625c079b849533fb004e0c",
     "url": "/monsterlovepp/static/media/kotlin.3fc5bcef.png"
   },
   {
-    "revision": "5fb0299a101ede97b983a14b5fc40501",
-    "url": "/monsterlovepp/static/media/php-logo.5fb0299a.png"
+    "revision": "dc7a79d47232bf2fecfb",
+    "url": "/monsterlovepp/static/js/main.dc7a79d4.chunk.js"
   },
   {
     "revision": "71b8c7c0f238a1ee9b0fa6078134b139",
@@ -54,6 +54,22 @@ self.__precacheManifest = [
   {
     "revision": "d072646c1f4a341465e0e6bbd96002d3",
     "url": "/monsterlovepp/static/media/swift.d072646c.jpg"
+  },
+  {
+    "revision": "f9320186b46d3b7d107f3aca57f2e89e",
+    "url": "/monsterlovepp/static/media/android-logo.f9320186.jpg"
+  },
+  {
+    "revision": "f733837ab3296b5245457b3199142ead",
+    "url": "/monsterlovepp/static/media/react-logos.f733837a.png"
+  },
+  {
+    "revision": "dea37e79274b02cf817d1ae12bce62f6",
+    "url": "/monsterlovepp/static/media/redux-logos.dea37e79.jpg"
+  },
+  {
+    "revision": "f53cffa3409d5324ffda1e15f448aa8b",
+    "url": "/monsterlovepp/static/media/xcode-logos.f53cffa3.png"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
@@ -68,7 +84,7 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/programLan.41502689.jpg"
   },
   {
-    "revision": "cc68de9fd1befd105c43fbf05066609d",
+    "revision": "69cf791bc11897c341b50ca90320d2d0",
     "url": "/monsterlovepp/index.html"
   }
 ];
