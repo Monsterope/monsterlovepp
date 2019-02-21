@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "5fb0299a101ede97b983a14b5fc40501",
-    "url": "/monsterlovepp/static/media/php-logo.5fb0299a.png"
+    "revision": "d072646c1f4a341465e0e6bbd96002d3",
+    "url": "/monsterlovepp/static/media/swift.d072646c.jpg"
   },
   {
-    "revision": "dc7a79d47232bf2fecfb",
+    "revision": "947a6d3d1241ae1006bd",
     "url": "/monsterlovepp/static/css/main.89179963.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/js/runtime~main.04369734.js"
   },
   {
-    "revision": "9d4ac96a996c2bef2d99",
-    "url": "/monsterlovepp/static/js/2.9d4ac96a.chunk.js"
+    "revision": "4844f7b504e16a7ae29a",
+    "url": "/monsterlovepp/static/js/2.4844f7b5.chunk.js"
   },
   {
     "revision": "51f994e30d4a6e5a2fa448f522455b15",
@@ -44,16 +44,16 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/kotlin.3fc5bcef.png"
   },
   {
-    "revision": "dc7a79d47232bf2fecfb",
-    "url": "/monsterlovepp/static/js/main.dc7a79d4.chunk.js"
+    "revision": "5fb0299a101ede97b983a14b5fc40501",
+    "url": "/monsterlovepp/static/media/php-logo.5fb0299a.png"
   },
   {
     "revision": "71b8c7c0f238a1ee9b0fa6078134b139",
     "url": "/monsterlovepp/static/media/nodejss.71b8c7c0.png"
   },
   {
-    "revision": "d072646c1f4a341465e0e6bbd96002d3",
-    "url": "/monsterlovepp/static/media/swift.d072646c.jpg"
+    "revision": "947a6d3d1241ae1006bd",
+    "url": "/monsterlovepp/static/js/main.947a6d3d.chunk.js"
   },
   {
     "revision": "f9320186b46d3b7d107f3aca57f2e89e",
@@ -72,6 +72,22 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/xcode-logos.f53cffa3.png"
   },
   {
+    "revision": "47711b5ecd6d86ea76a72a7aef399c8e",
+    "url": "/monsterlovepp/static/media/selenium-logo.47711b5e.png"
+  },
+  {
+    "revision": "253bac9034779d5cf37abb74852da64e",
+    "url": "/monsterlovepp/static/media/robot-logo.253bac90.jpg"
+  },
+  {
+    "revision": "16f3f216c1fa36ce045146334f8dac1f",
+    "url": "/monsterlovepp/static/media/cypress-logos.16f3f216.png"
+  },
+  {
+    "revision": "737fcbbbaa87ed99ebda1e9c2106fe4b",
+    "url": "/monsterlovepp/static/media/espresso-logo.737fcbbb.png"
+  },
+  {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/monsterlovepp/static/media/logo.5d5d9eef.svg"
   },
@@ -84,7 +100,7 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/programLan.41502689.jpg"
   },
   {
-    "revision": "69cf791bc11897c341b50ca90320d2d0",
+    "revision": "7037ec724033f8e7ee1bae5ccf5fea63",
     "url": "/monsterlovepp/index.html"
   }
 ];
