@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/swift.d072646c.jpg"
   },
   {
-    "revision": "947a6d3d1241ae1006bd",
-    "url": "/monsterlovepp/static/css/main.89179963.chunk.css"
+    "revision": "96e065ab3619b6e74ba6",
+    "url": "/monsterlovepp/static/css/main.2df80f30.chunk.css"
   },
   {
     "revision": "0436973482c33947bae5",
     "url": "/monsterlovepp/static/js/runtime~main.04369734.js"
   },
   {
-    "revision": "4844f7b504e16a7ae29a",
-    "url": "/monsterlovepp/static/js/2.4844f7b5.chunk.js"
+    "revision": "79308ba7cd92d230a836",
+    "url": "/monsterlovepp/static/js/2.79308ba7.chunk.js"
   },
   {
     "revision": "51f994e30d4a6e5a2fa448f522455b15",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/nodejss.71b8c7c0.png"
   },
   {
-    "revision": "947a6d3d1241ae1006bd",
-    "url": "/monsterlovepp/static/js/main.947a6d3d.chunk.js"
+    "revision": "96e065ab3619b6e74ba6",
+    "url": "/monsterlovepp/static/js/main.96e065ab.chunk.js"
   },
   {
     "revision": "f9320186b46d3b7d107f3aca57f2e89e",
@@ -88,6 +88,10 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/espresso-logo.737fcbbb.png"
   },
   {
+    "revision": "709fd5b09e057ef6c267c2c30a27bc11",
+    "url": "/monsterlovepp/static/media/photoshop-logo.709fd5b0.png"
+  },
+  {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/monsterlovepp/static/media/logo.5d5d9eef.svg"
   },
@@ -100,7 +104,7 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/programLan.41502689.jpg"
   },
   {
-    "revision": "7037ec724033f8e7ee1bae5ccf5fea63",
+    "revision": "ff24bf7d1415576ef7f59a7f9585a392",
     "url": "/monsterlovepp/index.html"
   }
 ];
