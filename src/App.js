@@ -23,35 +23,91 @@ import seleniumlogo from './img/selenium-logo.png'
 import robotlogo from './img/robot-logo.jpg'
 import cypresslogo from './img/cypress-logos.png'
 import espressologo from './img/espresso-logo.png'
+import arduinologo from './img/arduino-logos.jpg'
+import raspberrylogo from './img/ras-logo.jpg'
 
 import premlogo from './img/pr-logo.png'
 import lrlogo from './img/lr-logo.jpg'
 import phoslogo from './img/photoshop-logo.png'
 
+import fblogo from './img/fb-logo.png'
+import iglogo from './img/ig-logo.png'
+import linelogo from './img/line-logo.png'
+
+import picope from './img/IMG_1295.jpg'
+import picope1 from './img/IMG_1862.jpg'
+import picope2 from './img/IMG_1868.jpg'
+
+
 import './App.css';
 
+const subsrc = (imglogo, urls, tar, desc) => {
+  return `<article class="uk-comment ">
+  <header class="uk-comment-header uk-text-center uk-flex-center uk-flex-middle">
+      <div class="uk-width-auto">
+          <img class="uk-comment-avatar" src="`+ imglogo + `" width="40" height="40" alt="">
+      </div>
+      <div>
+          <h4 class="uk-comment-title uk-margin-remove uk-text-success"><a class="uk-link-reset" `+ tar + ` href="` + urls + `">` + desc + `</a></h4>
+      </div>
+  </header>
+</article>`
+  // return `<div class="uk-flex uk-flex-center">
+  // <img src=`+imglogo+` width="150px"></img>target="_blank"
+  // <h3>`+desc+`</h3>
+  // </div>`
+}
+
 class App extends Component {
+
   render() {
     return (
       <div className="App">
 
-        <div class="uk-text-center">
+        <div class="uk-text-center" uk-lightbox="animation: slide">
           <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
             <div class="uk-inline">
-              <a><img src={myope} alt="" width="1000px" /></a>
+              <img src={myope} alt="" width="1000px" />
               <div class="uk-position-center-right uk-overlay uk-overlay-default">
                 <p>Touch Or Pointing mouse</p>
-                <p>เพื่อแสดงรายละเอียด</p>
+                <a class="uk-button uk-button-secondary" href={picope}
+                  data-caption={subsrc(fblogo, 'https://www.facebook.com/monsterlove.fangnok', `target="_blank"`, "Monsterlove Portable")}>เพื่อแสดงรายละเอียด</a>
+                <a class="uk-margin-remove" href={picope1}
+                  data-caption={subsrc(iglogo, 'https://www.facebook.com/monsterlove.fangnok', `target="_blank"`, "monsterlove_portable")}></a>
+                <a class="uk-margin-remove" href={picope2}
+                  data-caption={subsrc(linelogo, '#', '#', "monsterloveascii0116")}></a>
               </div>
             </div>
             <div class="uk-height-small uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
-              <h3 class="uk-margin-remove">Dachawat Fangnok</h3>
+              <h3 class="uk-margin-remove">Dachawat Fangnok (OPE)</h3>
               <p class="uk-margin-remove">Software Tester</p>
-              <p class="uk-margin-remove">088-0542049</p>
               <p class="uk-margin-remove">dachawat.fang57@sskru.ac.th</p>
             </div>
           </div>
         </div>
+        
+        {/* <div class="uk-child-width-1-3@m uk-flex uk-flex-center" uk-grid uk-lightbox="animation: slide">
+          <div>
+            <a class="uk-inline" href={myope} data-caption="Caption 1">
+              <img src={myope} alt="" />
+            </a>
+          </div>
+          <div>
+            <a class="uk-inline" href={myope} data-caption="Caption 2">
+              <img src={myope} alt="" />
+            </a>
+          </div>
+          <div>
+            <a class="uk-inline" href={myope} data-caption="Caption 3">
+              <img src={myope} alt="" />
+            </a>
+          </div>
+          <div>
+            <a class="uk-inline" href={myope} data-caption="Caption 3">
+              <img src={myope} alt="" />
+            </a>
+          </div>
+        </div> */}
 
         <div uk-slider="center: true">
           <div class="uk-child-width-1-1@m uk-position-relative uk-visible-toggle uk-light uk-padding" tabindex="-1">
@@ -161,7 +217,7 @@ class App extends Component {
         <ul class="uk-flex uk-flex-center uk-subnav uk-margin-remove-right uk-subnav-pill " uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
           <li><a href="#">Programimg</a></li>
           <li><a href="#">Web Stack And Tools</a></li>
-          <li><a href="#">Automate Test</a></li>
+          <li><a href="#">Microcontroller And Automate Test</a></li>
           <li><a href="#">Photo Design</a></li>
         </ul>
 
@@ -238,7 +294,7 @@ class App extends Component {
             </div>
           </li>
           <li>
-          <div uk-slider="center: true" class="uk-padding">
+            <div uk-slider="center: true" class="uk-padding">
               <div class="uk-child-width-1-2@s uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
                 <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
 
@@ -300,9 +356,29 @@ class App extends Component {
             </div>
           </li>
           <li>
-          <div uk-slider="center: true" class="uk-padding">
+            <div uk-slider="center: true" class="uk-padding">
               <div class="uk-child-width-1-2@s uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
                 <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+                  <li>
+                    <div class="uk-card uk-card-default">
+                      <div class="uk-card-media-top">
+                        <img src={raspberrylogo} alt="" />
+                      </div>
+                      <div class="uk-card-body">
+                        <h3 class="uk-card-title">Raspberry Pi</h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="uk-card uk-card-default">
+                      <div class="uk-card-media-top">
+                        <img src={arduinologo} alt="" />
+                      </div>
+                      <div class="uk-card-body">
+                        <h3 class="uk-card-title">Arduino</h3>
+                      </div>
+                    </div>
+                  </li>
                   <li>
                     <div class="uk-card uk-card-default">
                       <div class="uk-card-media-top">
@@ -385,7 +461,7 @@ class App extends Component {
                         <img src={premlogo} alt="" />
                       </div>
                       <div class="uk-card-body">
-                      <h3 class="uk-card-title">Adobe Premiere Pro</h3>
+                        <h3 class="uk-card-title">Adobe Premiere Pro</h3>
                         <label>งานอดิเรก</label>
                       </div>
                     </div>
@@ -396,12 +472,12 @@ class App extends Component {
                         <img src={phoslogo} alt="" />
                       </div>
                       <div class="uk-card-body">
-                      <h3 class="uk-card-title">Adobe Photoshop</h3>
+                        <h3 class="uk-card-title">Adobe Photoshop</h3>
                         <label>งานอดิเรก</label>
                       </div>
                     </div>
                   </li>
-                  
+
                 </ul>
 
                 <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
@@ -430,7 +506,7 @@ class App extends Component {
             Learn React
           </a>
         </header> */}
-      </div>
+      </div >
     );
   }
 }
