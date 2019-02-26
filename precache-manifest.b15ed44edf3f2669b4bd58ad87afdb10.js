@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "dea37e79274b02cf817d1ae12bce62f6",
-    "url": "/monsterlovepp/static/media/redux-logos.dea37e79.jpg"
+    "revision": "f53cffa3409d5324ffda1e15f448aa8b",
+    "url": "/monsterlovepp/static/media/xcode-logos.f53cffa3.png"
   },
   {
-    "revision": "0073d75b2446039808fe",
+    "revision": "24dae691a725c84fe9e5",
     "url": "/monsterlovepp/static/css/main.2027ce78.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/js/runtime~main.04369734.js"
   },
   {
-    "revision": "0ac426d3a4168a8c04f4",
-    "url": "/monsterlovepp/static/js/2.0ac426d3.chunk.js"
+    "revision": "6ec28b594138bbab0e1b",
+    "url": "/monsterlovepp/static/js/2.6ec28b59.chunk.js"
   },
   {
     "revision": "51f994e30d4a6e5a2fa448f522455b15",
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/react-logos.f733837a.png"
   },
   {
-    "revision": "0073d75b2446039808fe",
-    "url": "/monsterlovepp/static/js/main.0073d75b.chunk.js"
+    "revision": "dea37e79274b02cf817d1ae12bce62f6",
+    "url": "/monsterlovepp/static/media/redux-logos.dea37e79.jpg"
   },
   {
-    "revision": "f53cffa3409d5324ffda1e15f448aa8b",
-    "url": "/monsterlovepp/static/media/xcode-logos.f53cffa3.png"
+    "revision": "24dae691a725c84fe9e5",
+    "url": "/monsterlovepp/static/js/main.24dae691.chunk.js"
   },
   {
     "revision": "47711b5ecd6d86ea76a72a7aef399c8e",
@@ -86,6 +86,14 @@ self.__precacheManifest = [
   {
     "revision": "737fcbbbaa87ed99ebda1e9c2106fe4b",
     "url": "/monsterlovepp/static/media/espresso-logo.737fcbbb.png"
+  },
+  {
+    "revision": "f70bd45eeeba1412a522798df8cbe7b5",
+    "url": "/monsterlovepp/static/media/arduino-logos.f70bd45e.jpg"
+  },
+  {
+    "revision": "b108ad1b999fb64ec9f48c6a2c8b1236",
+    "url": "/monsterlovepp/static/media/ras-logo.b108ad1b.jpg"
   },
   {
     "revision": "709fd5b09e057ef6c267c2c30a27bc11",
@@ -124,7 +132,7 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/programLan.41502689.jpg"
   },
   {
-    "revision": "2b88dae90426b47eb7b23ebf0efff9c1",
+    "revision": "2112a367f2a10a55e5433c5068e3f037",
     "url": "/monsterlovepp/index.html"
   }
 ];
