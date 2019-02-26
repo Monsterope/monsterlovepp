@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/redux-logos.dea37e79.jpg"
   },
   {
-    "revision": "a3fa9622c642656177b0",
+    "revision": "0073d75b2446039808fe",
     "url": "/monsterlovepp/static/css/main.2027ce78.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/js/runtime~main.04369734.js"
   },
   {
-    "revision": "eb8665b4b3eb493d0ae6",
-    "url": "/monsterlovepp/static/js/2.eb8665b4.chunk.js"
+    "revision": "0ac426d3a4168a8c04f4",
+    "url": "/monsterlovepp/static/js/2.0ac426d3.chunk.js"
   },
   {
     "revision": "51f994e30d4a6e5a2fa448f522455b15",
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/react-logos.f733837a.png"
   },
   {
-    "revision": "a3fa9622c642656177b0",
-    "url": "/monsterlovepp/static/js/main.a3fa9622.chunk.js"
+    "revision": "0073d75b2446039808fe",
+    "url": "/monsterlovepp/static/js/main.0073d75b.chunk.js"
   },
   {
     "revision": "f53cffa3409d5324ffda1e15f448aa8b",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/programLan.41502689.jpg"
   },
   {
-    "revision": "4c54b7f41f2263226296301ce1021892",
+    "revision": "2b88dae90426b47eb7b23ebf0efff9c1",
     "url": "/monsterlovepp/index.html"
   }
 ];
