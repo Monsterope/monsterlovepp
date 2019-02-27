@@ -30,10 +30,12 @@ import premlogo from './img/pr-logo.png'
 import lrlogo from './img/lr-logo.jpg'
 import phoslogo from './img/photoshop-logo.png'
 
+import proflogo from './img/prof-logo.png'
 import fblogo from './img/fb-logo.png'
 import iglogo from './img/ig-logo.png'
 import linelogo from './img/line-logo.png'
 
+import picope0 from './img/IMG_2775.png'
 import picope from './img/IMG_1295.jpg'
 import picope1 from './img/IMG_1862.jpg'
 import picope2 from './img/IMG_1868.jpg'
@@ -52,11 +54,19 @@ const subsrc = (imglogo, urls, tar, desc) => {
       </div>
   </header>
 </article>`
+
+
   // return `<div class="uk-flex uk-flex-center">
   // <img src=`+imglogo+` width="150px"></img>target="_blank"
   // <h3>`+desc+`</h3>
   // </div>`
 }
+
+const workHis = (desc, datess) => (
+  <div>
+    <p>- {desc}<br />-> {datess}</p>
+  </div>
+)
 
 class App extends Component {
 
@@ -70,8 +80,10 @@ class App extends Component {
               <img src={myope} alt="" width="1000px" />
               <div class="uk-position-center-right uk-overlay uk-overlay-default">
                 <p>Touch Or Pointing mouse</p>
-                <a class="uk-button uk-button-secondary" href={picope}
-                  data-caption={subsrc(fblogo, 'https://www.facebook.com/monsterlove.fangnok', `target="_blank"`, "Monsterlove Portable")}>เพื่อแสดงรายละเอียด</a>
+                <a class="uk-button uk-button-secondary" href={picope0}
+                  data-caption={subsrc(proflogo, '#', `#`, "Mr. Dachawat Fangnok | 17 Oct 1995")}>เพื่อแสดงรายละเอียด</a>
+                <a class="uk-margin-remove" href={picope}
+                  data-caption={subsrc(fblogo, 'https://www.facebook.com/monsterlove.fangnok', `target="_blank"`, "Monsterlove Portable")}></a>
                 <a class="uk-margin-remove" href={picope1}
                   data-caption={subsrc(iglogo, 'https://www.facebook.com/monsterlove.fangnok', `target="_blank"`, "monsterlove_portable")}></a>
                 <a class="uk-margin-remove" href={picope2}
@@ -85,7 +97,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-        
+
         {/* <div class="uk-child-width-1-3@m uk-flex uk-flex-center" uk-grid uk-lightbox="animation: slide">
           <div>
             <a class="uk-inline" href={myope} data-caption="Caption 1">
@@ -116,10 +128,31 @@ class App extends Component {
               <li>
                 <div>
                   <div class="uk-card uk-card-default">
-                    <div class="uk-card-body">
+                    <div class="uk-card-body uk-text-primar">
                       <h3 class="uk-card-title uk-text-bold">Career History</h3>
-                      <p>นักศึกษาฝึกงาน: Developer บริษัทโค้ดโมบายส์ จำกัด</p>
+                      {/* <p>นักศึกษาฝึกงาน: Developer บริษัทโค้ดโมบายส์ จำกัด</p> */}
                       <p>บัจจุบัน: Software Tester Avesta co. ltd</p>
+                      {/* <button class="uk-button uk-button-secondary" type="button" uk-toggle="target: #offcanvas-slide">ดูรายละเอียดเพิ่มเติม</button> */}
+
+                      <a class="uk-text-danger" uk-toggle="target: #offcanvas-slide">ดูรายละเอียดเพิ่มเติม</a>
+
+                      <div id="offcanvas-slide" uk-offcanvas="overlay: true">
+                        <div class="uk-offcanvas-bar">
+                          <div class="uk-flex uk-flex-column">
+                            <button class="uk-offcanvas-close uk-close-large" type="button" uk-close=""></button>
+                            <h3>More details</h3>
+                            {workHis('Software Tester Avesta co. ltd', '9 กรกฏาคม 2018 - บัจจุบัน')}
+                            {workHis('Developer บริษัทโค้ดโมบายส์ จำกัด', '1 เมษายน 2018 - 29 มิถุนายน 2018')}
+                            {workHis('Developer(นักศึกษาฝึกงาน) บริษัทโค้ดโมบายส์ จำกัด', '16 ตุลาคม 2017 - 15 กุมภาพันธ์ 2018')}
+                            {workHis('พัฒนาระบบกังหันน้ำเติมออกซิเจน', 'Senior Project')}
+                            {workHis('จัดทำค่าย SE Camp SSKRU', 'ค่ายประจำสาขาวิชา')}
+                            {workHis('พนักงานเสริฟ สถานบันเทิงในจังหวัดศรีสะเกษ', 'Full Time 2 เดือน')}
+                            {workHis('พนักงานโรงงานหนังสือที่ปทุมธานี ช่วงปิดเทอม', 'Full Time 2 เดือน')}
+                            {workHis('พนักงานเสริฟ ร้านอาหารช่วงปิดเทอม', 'Full Time 2 เดือน')}
+                            <img src={workss} alt="" />
+                          </div>
+                        </div>
+                      </div>
                     </div>
                     <div class="uk-card-media-bottom">
                       <img src={workss} alt="" />
