@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/xcode-logos.f53cffa3.png"
   },
   {
-    "revision": "4357fc495ba4f1e10810",
+    "revision": "e9ebc135ba4b8d985864",
     "url": "/monsterlovepp/static/css/main.2027ce78.chunk.css"
   },
   {
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/redux-logos.dea37e79.jpg"
   },
   {
-    "revision": "4357fc495ba4f1e10810",
-    "url": "/monsterlovepp/static/js/main.4357fc49.chunk.js"
+    "revision": "e9ebc135ba4b8d985864",
+    "url": "/monsterlovepp/static/js/main.e9ebc135.chunk.js"
   },
   {
     "revision": "47711b5ecd6d86ea76a72a7aef399c8e",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/programLan.41502689.jpg"
   },
   {
-    "revision": "aa8ec3f72bb4f489b3f59dbcc1a39944",
+    "revision": "967bd37cf4a7607d5936ff1331f4b86c",
     "url": "/monsterlovepp/index.html"
   }
 ];
