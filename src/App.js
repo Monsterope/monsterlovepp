@@ -85,7 +85,7 @@ class App extends Component {
                 <a class="uk-margin-remove" href={picope}
                   data-caption={subsrc(fblogo, 'https://www.facebook.com/monsterlove.fangnok', `target="_blank"`, "Monsterlove Portable")}></a>
                 <a class="uk-margin-remove" href={picope1}
-                  data-caption={subsrc(iglogo, 'https://www.facebook.com/monsterlove.fangnok', `target="_blank"`, "monsterlove_portable")}></a>
+                  data-caption={subsrc(iglogo, 'https://www.instagram.com/monsterlove_portable', `target="_blank"`, "monsterlove_portable")}></a>
                 <a class="uk-margin-remove" href={picope2}
                   data-caption={subsrc(linelogo, '#', '#', "monsterloveascii0116")}></a>
               </div>
@@ -142,7 +142,7 @@ class App extends Component {
                             <button class="uk-offcanvas-close uk-close-large" type="button" uk-close=""></button>
                             <h3>More details</h3>
                             {workHis('Software Tester Avesta co. ltd', '9 กรกฏาคม 2018 - บัจจุบัน')}
-                            {workHis('Developer บริษัทโค้ดโมบายส์ จำกัด', '1 เมษายน 2018 - 29 มิถุนายน 2018')}
+                            {workHis('Mobile Developer บริษัทโค้ดโมบายส์ จำกัด', '2 เมษายน 2018 - 30 มิถุนายน 2018')}
                             {workHis('Developer(นักศึกษาฝึกงาน) บริษัทโค้ดโมบายส์ จำกัด', '16 ตุลาคม 2017 - 15 กุมภาพันธ์ 2018')}
                             {workHis('พัฒนาระบบกังหันน้ำเติมออกซิเจน', 'Senior Project')}
                             {workHis('จัดทำค่าย SE Camp SSKRU', 'ค่ายประจำสาขาวิชา')}
@@ -160,7 +160,7 @@ class App extends Component {
                   </div>
                 </div>
               </li>
-              <li>
+              {/* <li>
                 <div>
                   <div class="uk-card uk-card-default">
                     <div class="uk-card-media-top">
@@ -173,7 +173,7 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
-              </li>
+              </li> */}
             </ul>
 
             <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
