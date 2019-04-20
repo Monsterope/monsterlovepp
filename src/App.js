@@ -68,6 +68,12 @@ const workHis = (desc, datess) => (
   </div>
 )
 
+const workPort = (desc, datess) => (
+  <div>
+    <p>- <a href={desc} target="_blank">{datess}</a></p>
+  </div>
+)
+
 class App extends Component {
 
   render() {
@@ -160,6 +166,40 @@ class App extends Component {
                   </div>
                 </div>
               </li>
+              <li>
+                <div>
+                  <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                      <img src={students} alt="" />
+                    </div>
+                    <div class="uk-card-body">
+                      <h3 class="uk-card-title uk-text-bold">Portfolio</h3>
+                      <p>บัจจุบัน: <a class="uk-link-heading" href="https://line.me/R/ti/p/%40qmq6863t" target="_blank">Line Bot MonstertesT</a></p>
+                      <a class="uk-text-danger" uk-toggle="target: #offcanvas-slides">ดูรายละเอียดเพิ่มเติม</a>
+
+                      <div id="offcanvas-slides" uk-offcanvas="overlay: true">
+                        <div class="uk-offcanvas-bar">
+                          <div class="uk-flex uk-flex-column">
+                            <button class="uk-offcanvas-close uk-close-large" type="button" uk-close=""></button>
+                            <h3>More details</h3>
+                            {workPort('https://line.me/R/ti/p/%40qmq6863t', 'Line Bot MonstertesT')}
+                            {workPort('https://hbpfactory.com/', 'ออกแบบ Test case และทดสอบระบบ HBP Grament')}
+                            {workPort('https://krakencard.com/', 'ออกแบบ Test case และทดสอบระบบ Kraken Card')}
+                            {workPort('https://yummychannel.net/', 'ออกแบบ Test case และทดสอบระบบ Yummy Channel')}
+                            {workPort('https://www.facebook.com/CodeMobilesTrainingCenter/photos/a.331288017003870/1256059334526729/?type=3&theater', 'ผู้ช่วยวิทยากรในหลักสูตร Advanced Android Programimg')}
+                            {workPort('http://www.arduino.codemobiles.com/category/69/%E0%B8%8A%E0%B8%B8%E0%B8%94%E0%B8%97%E0%B8%94%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%A3%E0%B8%B9%E0%B9%89', 'จัดชุดขายของอุปกรณ์ IoT ลงในร้าน Codemobile Arduino')}
+                            {workPort('https://www.youtube.com/watch?v=ogaUPhXimBc&list=PLjPfp4Ph3gBr--wOYOAmXvP91gMssL0h8', 'คลิปสอนการเขียนโปรแกรมด้วยภาษา Python 3')}
+                            <img src={workss} alt="" />
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* <p>มัธยมศึกษาตอนปลาย: โรงเรียนไกรภักดีวิทยาคม</p>
+                      <p>ปริญญาตรี: วิศวกรรมซอฟต์แวร์ มหาวิทยาลัยราชภัฏศรีสะเกษ</p> */}
+                    </div>
+                  </div>
+                </div>
+              </li> 
               {/* <li>
                 <div>
                   <div class="uk-card uk-card-default">
