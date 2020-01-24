@@ -137,7 +137,7 @@ class App extends Component {
                     <div class="uk-card-body uk-text-primar">
                       <h3 class="uk-card-title uk-text-bold">Career History</h3>
                       {/* <p>นักศึกษาฝึกงาน: Developer บริษัทโค้ดโมบายส์ จำกัด</p> */}
-                      <p>บัจจุบัน: Software Tester Avesta co. ltd</p>
+                      <p>บัจจุบัน: Senior Developer Thunder Software co. ltd</p>
                       {/* <button class="uk-button uk-button-secondary" type="button" uk-toggle="target: #offcanvas-slide">ดูรายละเอียดเพิ่มเติม</button> */}
 
                       <a class="uk-text-danger" uk-toggle="target: #offcanvas-slide">ดูรายละเอียดเพิ่มเติม</a>
@@ -147,7 +147,8 @@ class App extends Component {
                           <div class="uk-flex uk-flex-column">
                             <button class="uk-offcanvas-close uk-close-large" type="button" uk-close=""></button>
                             <h3>More details</h3>
-                            {workHis('Software Tester Avesta co. ltd', '9 กรกฏาคม 2018 - บัจจุบัน')}
+                            {workHis('Senior Developer Thunder Software co. ltd', '1 กรกฏาคม 2019 - บัจจุบัน')}
+                            {workHis('Software Tester Avesta co. ltd', '9 กรกฏาคม 2018 - 30 พฤษภาคม 2019')}
                             {workHis('Mobile Developer บริษัทโค้ดโมบายส์ จำกัด', '2 เมษายน 2018 - 30 มิถุนายน 2018')}
                             {workHis('Developer(นักศึกษาฝึกงาน) บริษัทโค้ดโมบายส์ จำกัด', '16 ตุลาคม 2017 - 15 กุมภาพันธ์ 2018')}
                             {workHis('พัฒนาระบบกังหันน้ำเติมออกซิเจน', 'Senior Project')}
@@ -174,7 +175,7 @@ class App extends Component {
                     </div>
                     <div class="uk-card-body">
                       <h3 class="uk-card-title uk-text-bold">Portfolio</h3>
-                      <p>บัจจุบัน: <a class="uk-link-heading" href="https://line.me/R/ti/p/%40qmq6863t" target="_blank">Line Bot MonstertesT</a></p>
+                      <p>บัจจุบัน: <a class="uk-link-heading" href="https://blablaboo.com" target="_blank">Web site Blablaboo</a></p>
                       <a class="uk-text-danger" uk-toggle="target: #offcanvas-slides">ดูรายละเอียดเพิ่มเติม</a>
 
                       <div id="offcanvas-slides" uk-offcanvas="overlay: true">
@@ -182,6 +183,7 @@ class App extends Component {
                           <div class="uk-flex uk-flex-column">
                             <button class="uk-offcanvas-close uk-close-large" type="button" uk-close=""></button>
                             <h3>More details</h3>
+                            {workPort('https://blablaboo.com', 'Web site Blablaboo')}
                             {workPort('https://line.me/R/ti/p/%40qmq6863t', 'Line Bot MonstertesT')}
                             {workPort('https://hbpfactory.com/', 'ออกแบบ Test case และทดสอบระบบ HBP Grament')}
                             {workPort('https://krakencard.com/', 'ออกแบบ Test case และทดสอบระบบ Kraken Card')}
