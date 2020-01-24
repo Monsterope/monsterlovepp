@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/monsterlovepp/precache-manifest.42f5e2c46e32e7c673996078c2c51a9e.js"
+  "/monsterlovepp/precache-manifest.0e21578a2f030cfe713176105b8de628.js"
 );
 
 workbox.clientsClaim();

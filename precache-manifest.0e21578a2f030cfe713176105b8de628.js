@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/xcode-logos.f53cffa3.png"
   },
   {
-    "revision": "0573025b102efae02326",
-    "url": "/monsterlovepp/static/css/main.5504afad.chunk.css"
+    "revision": "a8867b6c6d9be64dac34",
+    "url": "/monsterlovepp/static/css/main.289cc81b.chunk.css"
   },
   {
     "revision": "447d48a91e3d61d8548a",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/redux-logos.dea37e79.jpg"
   },
   {
-    "revision": "0573025b102efae02326",
-    "url": "/monsterlovepp/static/js/main.a670cd73.chunk.js"
+    "revision": "a8867b6c6d9be64dac34",
+    "url": "/monsterlovepp/static/js/main.f08f693b.chunk.js"
   },
   {
     "revision": "47711b5ecd6d86ea76a72a7aef399c8e",
@@ -124,8 +124,8 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/IMG_1868.089778ad.jpg"
   },
   {
-    "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
-    "url": "/monsterlovepp/static/media/logo.ee7cd8ed.svg"
+    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
+    "url": "/monsterlovepp/static/media/logo.5d5d9eef.svg"
   },
   {
     "revision": "5bfa1a1832b95b9a65fb6b2bc39cf18d",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/monsterlovepp/static/media/programLan.41502689.jpg"
   },
   {
-    "revision": "f64d22f256fdb21934318e6f01003b96",
+    "revision": "0af9cc418841b698c8e0b3bc37294ea3",
     "url": "/monsterlovepp/index.html"
   }
 ];
